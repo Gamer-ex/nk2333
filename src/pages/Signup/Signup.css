@@ -1,0 +1,60 @@
+.signup{
+  position: absolute;
+  width: 695px;
+  height: 695px;
+  left: 410px;
+  top: 146px;
+  
+  background: #D9D9D9;
+  border-radius: 67px;
+  }
+  .pic{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  }
+  .pro-pic {
+      width: 150px;
+      border-radius: 50%;
+  }
+  .signup-form{
+  position: absolute;
+  width: 419px;
+  height: 67px;
+  left: 130px;
+  top: 200px;
+  background: #909090;
+  }
+  #button {
+      cursor: pointer;
+      font-weight: 700;
+      font-family: Helvetica,"sans-serif";
+      transition: all .2s;
+      padding: 10px 20px;
+      border-radius: 100px;
+      background: #cfef00;
+      border: 1px solid transparent;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    }
+    
+    #button:hover {
+      background: #c4e201;
+    }
+    
+    #button > svg {
+      width: 34px;
+      margin-left: 10px;
+      transition: transform .3s ease-in-out;
+    }
+    
+    #button:hover svg {
+      transform: translateX(5px);
+    }
+    
+    #button:active {
+      transform: scale(0.95);
+    }
+     
+     
